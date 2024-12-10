@@ -15,7 +15,7 @@ def is_enabled(value, default):
 #main variables
 API_ID = int(environ.get('API_ID', '21072730'))
 API_HASH = environ.get('API_HASH', '463496456c2608f44f575c21867895f5')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7798777588:AAHGVn5HYYw187H2MqE4kLpcmFcGITL2-70')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7368700990:AAEz-wih23C6F3ZshsCj_4BRKXy0mWW1CB8')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5019668523').split()]
 USERNAME = environ.get('USERNAME', "https://tel.me/Doctor_Strange_1218")
@@ -26,11 +26,11 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://username:password@clus
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001949498981'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002325618998'))
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/ccb9db43e62a2e524928e.jpg')
 START_IMG = environ.get('START_IMG', 'https://graph.org/file/4dad0cc16f190468454ee.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002031180571'))
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1001905670346'))
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS',''))
 URL = environ.get('URL', 'mytestbot-jvdfhbj.com')
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))

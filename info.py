@@ -18,10 +18,10 @@ API_HASH = environ.get('API_HASH', '463496456c2608f44f575c21867895f5')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7368700990:AAEz-wih23C6F3ZshsCj_4BRKXy0mWW1CB8')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5019668523').split()]
-USERNAME = environ.get('USERNAME', "https://tel.me/Doctor_Strange_1218")
+USERNAME = environ.get('USERNAME', "https://t.me/Doctor_Strange_1218")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002325618998'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+ovviuLqLOh8yMzE1')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002165297790').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002165297790 -1002126324229').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://SaveR:SaveR@restrict.fj8cdla.mongodb.net/?retryWrites=true&w=majority")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "Deadpool_Files")
@@ -34,7 +34,7 @@ DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002325361324'))
 URL = environ.get('URL', 'mytestbot-jvdfhbj.com')
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', false)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002450578776'))
 TUTORIAL = environ.get("https://t.me/+I7ckBD9uI8pmMjc1")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
